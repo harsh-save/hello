@@ -20,6 +20,10 @@ jobs:
   say-hello2:
     docker:
       - image: cimg/base:stable
+    steps:
+      -run:
+        name: "Say-hello2"
+        command: "echo Hello"
     
 
 # Orchestrate jobs using workflows
