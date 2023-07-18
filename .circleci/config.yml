@@ -34,4 +34,4 @@ workflows:
     jobs:
       - say-hello
         -requires
-          - say-hello2
+           say-hello2
