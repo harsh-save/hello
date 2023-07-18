@@ -20,11 +20,7 @@ jobs:
   say-hello2:
     docker:
       - image: cimg/base:stable
-    steps:
-      - checkout
-      -run:
-        name: "Say hello2"
-        command: "echo Hello2"
+    
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
